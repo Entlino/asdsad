@@ -1,0 +1,53 @@
+* {
+    color: #999999;
+    font-size: 20px;
+    font-weight: 400;
+    box-sizing: border-box;
+    font-family: 'Monteserat', Arial, sans-serif;
+}
+body {
+    background-image: url('background.jpg') ;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 5px;
+   
+}
+header,
+nav,
+section,
+aside,
+footer {
+    text-align: center;
+    border-radius: 7px;
+    padding: 25px;
+    box-shadow: 0 5px 15px rgba(0,0,0,.08);
+}
+header {
+       background-color: yellowgreen;
+}
+
+nav {
+    background-color: orange;
+}
+
+aside {
+    background-color: peru;
+}
+
+section {
+    background-color: red;
+}
+
+section header,
+section article,
+section footer {
+    border: 1px solid #e5e5e5;
+    box-shadow: none;
+    background-color: blue;
+}
+
+footer {
+        background-color: grey;
+}
